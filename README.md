@@ -8,7 +8,7 @@
 
 
 ' ' 'sql
-SELECT 
+SELECT...
     `Sales Channel`,
     ROUND(SUM(`Unit_Price` * `Order Quantity` * (1 - `Discount_Applied`)), 2) AS Total_Revenue,
     ROUND(AVG(`Unit_Price` * `Order Quantity` * (1 - `Discount_Applied`)), 2) AS Average_Order_Value
