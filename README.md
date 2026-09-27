@@ -3,7 +3,7 @@
 -- name: Akaje Rukayat Ajibola
 -- Description: Queries for Data Cleaning and Analytics Insights**
 
-### 1. Revenue and Average Order Value (AOV) by Sales Channel
+### 1.Revenue and Average Order Value (AOV) by Sales Channel
 **Purpose:** This calculation groups your data by sales channel to figure out how much total revenue each channel brings in, as well as the average value of an order placed through that channel.
 
 SELECT 
