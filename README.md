@@ -6,6 +6,8 @@
 ### 1.Revenue and Average Order Value (AOV) by Sales Channel
 **Purpose:** This calculation groups your data by sales channel to figure out how much total revenue each channel brings in, as well as the average value of an order placed through that channel.
 
+
+'''sql
 SELECT 
     `Sales Channel`,
     ROUND(SUM(`Unit_Price` * `Order Quantity` * (1 - `Discount_Applied`)), 2) AS Total_Revenue,
@@ -24,7 +26,7 @@ FROM sales_order_usa
 GROUP BY YearMonth
 ORDER BY YearMonth ASC;
 
-### 3. Revenue and Profit by Region
+### 3.Revenue and Profit by Region
 **Purpose:** This breaks down total financial performance geographically by region.
 
 SELECT 
@@ -83,7 +85,7 @@ FROM sales_order_usa
 GROUP BY `Sales Channel`
 ORDER BY Avg_Discount_Percent DESC;
 
-### 7. Average Delivery Lead Time by Warehouse
+### 7.Average Delivery Lead Time by Warehouse
 **Purpose:** This measures supply chain and shipping efficiency by calculating how long it takes warehouses to ship orders.
 
 SELECT 
@@ -94,7 +96,7 @@ FROM sales_order_usa
 GROUP BY WarehouseCode
 ORDER BY Avg_Delivery_Days ASC;
 
-### 8. Cumulative Running Total Revenue by Region
+### 8.Cumulative Running Total Revenue by Region
 **Purpose:** This shows how revenue accumulates over time or across regions sequentially.
 
 SELECT 
@@ -111,7 +113,7 @@ JOIN region_usa r ON st.StateCode = r.StateCode
 GROUP BY r.Region
 ORDER BY r.Region;
 
-### 9. Top 3 Stores Per Region
+### 9.Top 3 Stores Per Region
 **Purpose:** This highlights the top-performing physical or digital stores within each geographic region based on monthly sales figures.
 
 WITH MonthlyRegionSales AS (
@@ -132,7 +134,7 @@ SELECT
 FROM MonthlyRegionSales
 ORDER BY Region, SalesMonth;
 
-### 10. Profit Margin % by Product (Comparing Profit vs. Revenue)
+### 10.Profit Margin % by Product (Comparing Profit vs. Revenue)
 **Purpose:** This evaluates the profitability of individual products relative to how much total revenue they generate.
 
 SELECT 
