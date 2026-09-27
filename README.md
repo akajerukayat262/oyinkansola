@@ -6,7 +6,6 @@
 ### 1. Revenue and Average Order Value (AOV) by Sales Channel
 **Purpose:** This calculation groups your data by sales channel to figure out how much total revenue each channel brings in, as well as the average value of an order placed through that channel.
 
-'''sql
 SELECT 
     `Sales Channel`,
     ROUND(SUM(`Unit_Price` * `Order Quantity` * (1 - `Discount_Applied`)), 2) AS Total_Revenue,
@@ -15,8 +14,8 @@ FROM sales_order_usa
 GROUP BY `Sales Channel`
 ORDER BY Total_Revenue DESC;
 
-2.Month-over-Month Trend
-Purpose: This tracks how your sales performance changes over time on a monthly basis.
+### 2.Month-over-Month Trend
+**Purpose:** This tracks how your sales performance changes over time on a monthly basis.
 
 SELECT 
     DATE_FORMAT(orderDate, '%Y-%m') AS YearMonth,
@@ -25,8 +24,8 @@ FROM sales_order_usa
 GROUP BY YearMonth
 ORDER BY YearMonth ASC;
 
-3. Revenue and Profit by Region
-Purpose: This breaks down total financial performance geographically by region.
+### 3. Revenue and Profit by Region
+**Purpose:** This breaks down total financial performance geographically by region.
 
 SELECT 
     region.Region,
@@ -38,8 +37,9 @@ JOIN region_usa region ON store.StateCode = region.StateCode
 GROUP BY region.Region
 ORDER BY Total_Revenue DESC;
 
-4.Top 10 Customers by Revenue & Share of Total Revenue
-Purpose: This identifies your highest-value customers and shows what percentage of your overall business revenue each one accounts for.
+
+### 4.Top 10 Customers by Revenue & Share of Total Revenue
+**Purpose:** This identifies your highest-value customers and shows what percentage of your overall business revenue each one accounts for.
 
 SELECT 
     `Customer Names`,
@@ -52,8 +52,8 @@ GROUP BY `Customer Names`
 ORDER BY Customer_Revenue DESC
 LIMIT 10;               
 
-5.Top and Bottom Performing Sales Reps
-Purpose: This highlights your best-performing sales representatives as well as those needing improvement.
+### 5.Top and Bottom Performing Sales Reps
+**Purpose:** This highlights your best-performing sales representatives as well as those needing improvement.
 
       WITH RepPerformance AS (
     SELECT 
@@ -71,8 +71,8 @@ FROM RepPerformance
 WHERE Top_Rank <= 5 OR Bottom_Rank <= 5
 ORDER BY Total_Revenue DESC;
 
-6.Average Discount & Impact on Order Value per Channel
-Purpose: This evaluates how discounts affect order sizes and overall pricing strategy across different sales channels.
+### 6.Average Discount & Impact on Order Value per Channel
+**Purpose:** This evaluates how discounts affect order sizes and overall pricing strategy across different sales channels.
 
 SELECT 
     `Sales Channel`,
@@ -83,8 +83,8 @@ FROM sales_order_usa
 GROUP BY `Sales Channel`
 ORDER BY Avg_Discount_Percent DESC;
 
-7. Average Delivery Lead Time by Warehouse
-Purpose: This measures supply chain and shipping efficiency by calculating how long it takes warehouses to ship orders.
+### 7. Average Delivery Lead Time by Warehouse
+**Purpose:** This measures supply chain and shipping efficiency by calculating how long it takes warehouses to ship orders.
 
 SELECT 
     WarehouseCode,
@@ -94,8 +94,8 @@ FROM sales_order_usa
 GROUP BY WarehouseCode
 ORDER BY Avg_Delivery_Days ASC;
 
-8. Cumulative Running Total Revenue by Region
-Purpose: This shows how revenue accumulates over time or across regions sequentially.
+### 8. Cumulative Running Total Revenue by Region
+**Purpose:** This shows how revenue accumulates over time or across regions sequentially.
 
 SELECT 
     r.Region,
@@ -111,8 +111,8 @@ JOIN region_usa r ON st.StateCode = r.StateCode
 GROUP BY r.Region
 ORDER BY r.Region;
 
-9. Top 3 Stores Per Region
-Purpose: This highlights the top-performing physical or digital stores within each geographic region based on monthly sales figures.
+### 9. Top 3 Stores Per Region
+**Purpose:** This highlights the top-performing physical or digital stores within each geographic region based on monthly sales figures.
 
 WITH MonthlyRegionSales AS (
     SELECT 
@@ -132,8 +132,8 @@ SELECT
 FROM MonthlyRegionSales
 ORDER BY Region, SalesMonth;
 
-10. Profit Margin % by Product (Comparing Profit vs. Revenue)
-Purpose: This evaluates the profitability of individual products relative to how much total revenue they generate.
+### 10. Profit Margin % by Product (Comparing Profit vs. Revenue)
+**Purpose:** This evaluates the profitability of individual products relative to how much total revenue they generate.
 
 SELECT 
     CONCAT('Product ', `_ProductID`) AS Product_ID,
