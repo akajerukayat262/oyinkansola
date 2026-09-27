@@ -1,4 +1,5 @@
-US Retail Sales Project 
--- US Retail Sales Project - sql
+**US Retail Sales Project **
+**-- US Retail Sales Project - SQL
 -- name: Akaje Rukayat Ajibola
--- Dscription: Queries fot Data Cleaning and Analytics Insights
+-- Description: Queries for Data Cleaning and Analytics Insights**
+
