@@ -3,11 +3,10 @@
 -- name: Akaje Rukayat Ajibola
 -- Description: Queries for Data Cleaning and Analytics Insights**
 
-
+```sql
 ### 1.Revenue and Average Order Value (AOV) by Sales Channel
 **Purpose:** This calculation groups your data by sales channel to figure out how much total revenue each channel brings in, as well as the average value of an order placed through that channel.
 
-```sql
 SELECT
     `Sales Channel`,
     ROUND(SUM(`Unit_Price` * `Order Quantity` * (1 - `Discount_Applied`)), 2) AS Total_Revenue,
@@ -19,7 +18,6 @@ ORDER BY Total_Revenue DESC;
 ### 2.Month-over-Month Trend
 **Purpose:** This tracks how your sales performance changes over time on a monthly basis.
 
-```sql
 SELECT 
     DATE_FORMAT(orderDate, '%Y-%m') AS YearMonth,
     ROUND(SUM(`Unit_Price` * `Order Quantity` * (1 - `Discount_Applied`)), 2) AS Monthly_Revenue
