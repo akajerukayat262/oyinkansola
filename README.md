@@ -170,12 +170,22 @@ Regional Disparities: Performance varied noticeably across regions and sales cha
 
 ###   Power BI Dashboard Preview
 
-<img width="854" height="481" alt="Screenshot 2026-10-03 at 11 54 20" src="https://github.com/user-attachments/assets/139f553d-a0e4-4549-9671-258d108c6009" />
+**Executive Summary Page:** Highlights core financial health and performance indicators at a glance, featuring high-level metrics including total profit ($4.90M), profit margin, total orders (8K), average order value ($570.20), category revenue performance matrices, monthly revenue trends over time, regional revenue share, and state-level performance.
+<img width="1687" height="926" alt="Image 03-10-2026 at 17 44" src="https://github.com/user-attachments/assets/1315a639-dc7a-4d8b-a1ed-090895772649" />
 
-<img width="847" height="491" alt="Screenshot 2026-10-03 at 11 55 22" src="https://github.com/user-attachments/assets/2f8c0ede-33ae-4e89-b197-4d4e1726c2ba" />
+**Sales & Order Analytics Page:** Focuses on overall transactional performance, tracking regional order distributions, quarterly order shares across channels, channel profitability, revenue metrics, and warehouse fulfillment lead times.
+<img width="847" height="491" alt="Screenshot 2026-10-03 at 11 55 22" src="https://github.com/user-attachments/assets/43d91b3c-4b74-4221-831f-d56797ac65ca" />
 
-<img width="852" height="489" alt="Screenshot 2026-10-03 at 11 56 30" src="https://github.com/user-attachments/assets/222eca4f-b95f-49f3-9bf7-1fab8450bf8b" />
+**Product & Category Page:** Highlights product-level efficiency, detailing top-performing products by revenue, category total costs, profit margins, and revenue breakdowns by brand.
+<img width="852" height="489" alt="Screenshot 2026-10-03 at 11 56 30" src="https://github.com/user-attachments/assets/2ee86560-59ba-4254-a27a-7a019bf7e27d" />
 
-<img width="844" height="477" alt="Screenshot 2026-10-03 at 11 57 24" src="https://github.com/user-attachments/assets/8b721f7f-c849-4804-9bbe-26cb9468b3cf" />
+**Region, Stores & Customers Page:** Evaluates geographical and customer-centric performance, showcasing regional revenue breakdowns, active store counts, top customer spending tiers, and state-level revenue performance.
+<img width="844" height="477" alt="Screenshot 2026-10-03 at 11 57 24" src="https://github.com/user-attachments/assets/055608b7-48dd-432b-9779-3411ea9f6321" />
 
-<img width="848" height="482" alt="Screenshot 2026-10-03 at 11 58 22" src="https://github.com/user-attachments/assets/08681fbf-7e2b-432d-ab43-91e615d83761" />
+**Sales Team Performance Page:** Analyzes operational and sales representative productivity, mapping team revenue shares, individual sales team profit contributions, and warehouse order processing speeds.
+<img width="854" height="481" alt="Screenshot 2026-10-03 at 11 54 20" src="https://github.com/user-attachments/assets/c721f757-42db-497f-a623-1c7c28d82b3d" />
+
+
+
+
+
