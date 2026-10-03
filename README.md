@@ -157,7 +157,7 @@ SELECT
 FROM sales_order_usa
 GROUP BY `_ProductID`
 ORDER BY Profit_Margin_Pct DESC;
-sql```
+```
 
 ### Key Analytical Insights
 
