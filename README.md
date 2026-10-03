@@ -15,11 +15,11 @@ The primary objective of this project is to leverage modern data analytics tools
 **Operational Optimization:** Analyzing delivery lead times across various warehouses and monitoring sales representative effectiveness.
 
 ### SQL ANALYSIS
-
+```sql
 ### 1.Revenue and Average Order Value (AOV) by Sales Channel
 **Purpose:** This calculation groups your data by sales channel to figure out how much total revenue each channel brings in, as well as the average value of an order placed through that channel.
-` ` `sql
-SELECT...
+
+SELECT
     `Sales Channel`,
     ROUND(SUM(`Unit_Price` * `Order Quantity` * (1 - `Discount_Applied`)), 2) AS Total_Revenue,
     ROUND(AVG(`Unit_Price` * `Order Quantity` * (1 - `Discount_Applied`)), 2) AS Average_Order_Value
