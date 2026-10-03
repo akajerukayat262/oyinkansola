@@ -1,3 +1,6 @@
+<img width="847" height="491" alt="Screenshot 2026-10-03 at 11 55 22" src="https://github.com/user-attachments/assets/4990f4e7-377c-4339-a25d-f8935211c1b4" />
+<img width="854" height="481" alt="Screenshot 2026-10-03 at 11 54 20" src="https://github.com/user-attachments/assets/58c7c8c6-0b7a-4e5b-a9b7-1cf3819c223e" />
+<img width="854" height="481" alt="Screenshot 2026-10-03 at 11 54 20" src="https://github.com/user-attachments/assets/8f9803ea-bfa6-4e85-be42-48b832f5f649" />
 **US Retail Sales Project**
 **-- US Retail Sales Project - SQL
 -- name: Akaje Rukayat Ajibola
@@ -170,3 +173,12 @@ Regional Disparities: Performance varied noticeably across regions and sales cha
 
 ###   Power BI Dashboard Preview
 
+<img width="854" height="481" alt="Screenshot 2026-10-03 at 11 54 20" src="https://github.com/user-attachments/assets/139f553d-a0e4-4549-9671-258d108c6009" />
+
+<img width="847" height="491" alt="Screenshot 2026-10-03 at 11 55 22" src="https://github.com/user-attachments/assets/2f8c0ede-33ae-4e89-b197-4d4e1726c2ba" />
+
+<img width="852" height="489" alt="Screenshot 2026-10-03 at 11 56 30" src="https://github.com/user-attachments/assets/222eca4f-b95f-49f3-9bf7-1fab8450bf8b" />
+
+<img width="844" height="477" alt="Screenshot 2026-10-03 at 11 57 24" src="https://github.com/user-attachments/assets/8b721f7f-c849-4804-9bbe-26cb9468b3cf" />
+
+<img width="848" height="482" alt="Screenshot 2026-10-03 at 11 58 22" src="https://github.com/user-attachments/assets/08681fbf-7e2b-432d-ab43-91e615d83761" />
