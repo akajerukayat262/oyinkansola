@@ -1,6 +1,3 @@
-<img width="847" height="491" alt="Screenshot 2026-10-03 at 11 55 22" src="https://github.com/user-attachments/assets/4990f4e7-377c-4339-a25d-f8935211c1b4" />
-<img width="854" height="481" alt="Screenshot 2026-10-03 at 11 54 20" src="https://github.com/user-attachments/assets/58c7c8c6-0b7a-4e5b-a9b7-1cf3819c223e" />
-<img width="854" height="481" alt="Screenshot 2026-10-03 at 11 54 20" src="https://github.com/user-attachments/assets/8f9803ea-bfa6-4e85-be42-48b832f5f649" />
 **US Retail Sales Project**
 **-- US Retail Sales Project - SQL
 -- name: Akaje Rukayat Ajibola
