@@ -18,7 +18,7 @@ The primary objective of this project is to leverage modern data analytics tools
 
 ### 1.Revenue and Average Order Value (AOV) by Sales Channel
 **Purpose:** This calculation groups your data by sales channel to figure out how much total revenue each channel brings in, as well as the average value of an order placed through that channel.
-' ' 'sql
+` ` `sql
 SELECT...
     `Sales Channel`,
     ROUND(SUM(`Unit_Price` * `Order Quantity` * (1 - `Discount_Applied`)), 2) AS Total_Revenue,
