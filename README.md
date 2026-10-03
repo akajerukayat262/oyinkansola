@@ -167,3 +167,6 @@ Regional Disparities: Performance varied noticeably across regions and sales cha
 
    Conclusion
    The combination of advanced SQL data engineering and Power BI storytelling successfully converted chaotic raw records into an intuitive, polished portfolio asset. The findings offer clear visibility into revenue drivers, pricing constraints, and operational bottlenecks, giving stakeholders the insights needed for future retail strategy.   
+
+###   Power BI Dashboard Preview
+
