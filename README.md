@@ -158,7 +158,7 @@ FROM sales_order_usa
 GROUP BY `_ProductID`
 ORDER BY Profit_Margin_Pct DESC;
 
-### Key Analytical InsightsRevenue & Profitability 
+### Key Analytical Insights
 
 Revenue & Profitability: Total revenue generation reached strong double-digit millions, supported by a healthy overall profit margin across core product categories.   
 Brand & Product Performance: Flagship product lines (such as Cedarline) led total revenue contributions, significantly outperforming secondary product tiers. 
