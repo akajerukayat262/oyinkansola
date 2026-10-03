@@ -3,7 +3,19 @@
 -- name: Akaje Rukayat Ajibola
 -- Description: Queries for Data Cleaning and Analytics Insights**
 
-```sql
+### Executive Summary
+This project delivers a comprehensive end-to-end data analysis of a US retail sales dataset, transforming raw operational files into structured business intelligence. By leveraging **MySQL** for data cleaning, staging, and complex exploratory data analysis (EDA), alongside **Power BI** for interactive visual storytelling, this repository evaluates key performance metrics across sales channels, regional profitability, product demand, and supply chain fulfillment. 
+The primary purpose of this analysis is to bridge raw database records with strategic decision-making—uncovering revenue drivers, identifying top-performing product lines and sales representatives, examining customer spending behavior, and highlighting operational bottlenecks to help management optimize overall retail strategy.
+
+### Project Objectives & Business Goals
+The primary objective of this project is to leverage modern data analytics tools to answer critical business questions and evaluate overall retail performance. Specific goals include:
+**Evaluating Financial Health:** Calculating total revenue, production costs, and net profits to determine overall profit margins.
+**Channel & Regional Analysis:** Assessing which sales channels and geographical regions drive the highest volume and financial return.
+**Customer Segmentation:** Identifying high-value customers, spending tiers, and purchasing patterns.
+**Operational Optimization:** Analyzing delivery lead times across various warehouses and monitoring sales representative effectiveness.
+
+### SQL ANALYSIS
+
 ### 1.Revenue and Average Order Value (AOV) by Sales Channel
 **Purpose:** This calculation groups your data by sales channel to figure out how much total revenue each channel brings in, as well as the average value of an order placed through that channel.
 
@@ -145,3 +157,13 @@ SELECT
 FROM sales_order_usa
 GROUP BY `_ProductID`
 ORDER BY Profit_Margin_Pct DESC;
+
+### Key Analytical InsightsRevenue & Profitability 
+
+Revenue & Profitability: Total revenue generation reached strong double-digit millions, supported by a healthy overall profit margin across core product categories.   
+Brand & Product Performance: Flagship product lines (such as Cedarline) led total revenue contributions, significantly outperforming secondary product tiers. 
+Order Volumes & AOV: High order frequencies combined with robust average order values indicate healthy customer purchasing power and basket sizes. 
+Regional Disparities: Performance varied noticeably across regions and sales channels, pointing out specific geographic target areas for future business expansion. 
+
+   Conclusion
+   The combination of advanced SQL data engineering and Power BI storytelling successfully converted chaotic raw records into an intuitive, polished portfolio asset. The findings offer clear visibility into revenue drivers, pricing constraints, and operational bottlenecks, giving stakeholders the insights needed for future retail strategy.   
