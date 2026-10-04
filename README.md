@@ -187,7 +187,7 @@ Regional Disparities: Performance varied noticeably across regions and sales cha
 **Sales Team Performance Page:** Analyzes operational and sales representative productivity, mapping team revenue shares, individual sales team profit contributions, and warehouse order processing speeds.
 <img width="854" height="481" alt="Screenshot 2026-10-03 at 11 54 20" src="https://github.com/user-attachments/assets/c721f757-42db-497f-a623-1c7c28d82b3d" />
 
-
+### Project by: Akaje Rukayat Ajibola
 
 
 
